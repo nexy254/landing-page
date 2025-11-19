@@ -4,11 +4,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-}
-
-div {
-    border: solid 5px black;
-    height: 8rem;
+    margin: 0;
 }
 
 .header-box, .section-one, .section-two, .section-three, .section-four, .footer-box {
@@ -23,12 +19,31 @@ div {
     height: 4rem;
 }
 
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-link {
+    color: #E5E7EB;
+}
+
+a {
+
+}
+
+ul {
+
+}
+
 .section-one, .section-two {
     height: 18rem;
 }
 
 .section-three {
     height: 16rem;
+    background-color: #E5E7EB;
 }
 
 .section-four {
