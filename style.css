@@ -1,4 +1,5 @@
 body {
+    font-family: Roboto;
     height: 100vh;
     display: flex;
     justify-content: space-between;
@@ -8,4 +9,32 @@ body {
 div {
     border: solid 5px black;
     height: 8rem;
+}
+
+.header-box, .section-one, .section-two, .section-three, .section-four, .footer-box {
+    display: flex;
+}
+
+.header-box, .footer-box, .section-one {
+    background-color: #1F2937;
+}
+
+.header-box {
+    height: 4rem;
+}
+
+.section-one, .section-two {
+    height: 18rem;
+}
+
+.section-three {
+    height: 16rem;
+}
+
+.section-four {
+    height: 12rem;
+}
+
+.footer-box {
+    height: 5rem;
 }
