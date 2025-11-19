@@ -31,13 +31,13 @@ body {
 
 .header-link {
     display: flex;
-    color: #E5E7EB;
     flex-wrap: wrap;
     align-items: center;
 }
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 ul {
@@ -51,6 +51,34 @@ li {
 
 .section-one, .section-two {
     height: 18rem;
+}
+
+.section-one {
+    justify-content: center;
+    align-items: center;
+}
+
+.content-one, .content-two {
+    display: flex;
+    width: 30rem;
+    background-color: #1F2937;
+    height: 60%;
+    border: solid 3px green;
+}
+
+.content-one {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.big-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.small-text {
+    color: #E5E7EB;
 }
 
 .section-three {
