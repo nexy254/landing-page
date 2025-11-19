@@ -16,25 +16,37 @@ body {
 }
 
 .header-box {
+    justify-content: space-between;
     height: 4rem;
 }
 
 .header-logo {
+    display: flex;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
+    align-items: center;
+    margin-left: 10rem;
 }
 
 .header-link {
+    display: flex;
     color: #E5E7EB;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 a {
-
+    text-decoration: none;
 }
 
 ul {
+    list-style-type: none;
+    margin-right: 10rem;
+}
 
+li {
+    margin-right: 1rem;
 }
 
 .section-one, .section-two {
