@@ -63,7 +63,7 @@ li {
     width: 30rem;
     background-color: #1F2937;
     height: 60%;
-    border: solid 3px green;
+    padding: 1rem;
 }
 
 .content-one {
@@ -79,6 +79,16 @@ li {
 
 .small-text {
     color: #E5E7EB;
+}
+
+.sign-up-button-one {
+    width: 5rem;
+    height: 25px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+    border-radius: 8px;
+    border: 0px;
 }
 
 .section-three {
