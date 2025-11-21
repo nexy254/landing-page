@@ -29,7 +29,7 @@ body {
     margin-left: 10rem;
 }
 
-.header-link {
+.header-links {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
