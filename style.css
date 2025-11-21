@@ -135,6 +135,27 @@ li {
 .section-three {
     height: 16rem;
     background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 25rem;
+    height: 10rem;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote-end {
+    margin-left: auto;
 }
 
 .section-four {
