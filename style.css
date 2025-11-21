@@ -18,6 +18,7 @@ body {
 .header-box {
     justify-content: space-between;
     height: 4rem;
+    flex-grow: 1;
 }
 
 .header-logo {
@@ -201,4 +202,11 @@ li {
 
 .footer-box {
     height: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    font-size: 12px;
 }
