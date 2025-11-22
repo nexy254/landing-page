@@ -216,7 +216,7 @@ li {
 
 /* Media Stuff */
 
-@media (max-width: 836px) {
+@media (max-width: 900px) {
 
     .big-text {
     font-size: 24px;
