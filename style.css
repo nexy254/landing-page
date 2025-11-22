@@ -212,3 +212,16 @@ li {
     color: #F9FAF8;
     font-size: 12px;
 }
+
+
+/* Media Stuff */
+
+@media (max-width: 836px) {
+
+    .big-text {
+    font-size: 32px;
+    color: orangered;
+    font-weight: 900;
+}
+
+}
