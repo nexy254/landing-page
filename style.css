@@ -24,7 +24,7 @@ body {
 .header-logo {
     display: flex;
     font-size: 24px;
-    color: #F9FAF8;
+    color: orangered;
     font-weight: 900;
     align-items: center;
     margin-left: 10rem;
@@ -120,7 +120,7 @@ li {
 
 .items {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     width: 10rem;
     height: 10rem;
@@ -151,7 +151,7 @@ li {
 
 .quote {
     font-size: 36px;
-    color: #1F2937;
+    color: orangered;
     font-weight: 300;
 }
 
