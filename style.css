@@ -44,6 +44,7 @@ a {
 ul {
     list-style-type: none;
     margin-right: 10rem;
+    gap: 12px;
 }
 
 li {
@@ -70,11 +71,12 @@ li {
 .content-one {
     flex-direction: column;
     justify-content: space-between;
+    gap: 8px;
 }
 
 .big-text {
     font-size: 48px;
-    color: #F9FAF8;
+    color: orangered;
     font-weight: 900;
 }
 
@@ -135,7 +137,7 @@ li {
 
 .section-three {
     height: 16rem;
-    background-color: #E5E7EB;
+    background-color: darkgoldenrod;
     justify-content: center;
     align-items: center;
 }
@@ -151,7 +153,7 @@ li {
 
 .quote {
     font-size: 36px;
-    color: orangered;
+    color: #F9FAF8;
     font-weight: 300;
 }
 
